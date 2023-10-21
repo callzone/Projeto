@@ -18,7 +18,7 @@ body {
 
 header {
   background-color: #0b0b0d;
-
+  height: 90px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -55,10 +55,79 @@ ul li:hover {
   box-shadow: 0px 0px 15px -1px rgba(245, 226, 51, 1);
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 main {
   margin-top: 100px;
 }
 
 main h1 {
   text-align: center;
+}
+
+/* Menu hamburguer */
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  border-top: 3px solid #fff;
+  cursor: pointer;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: " ";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  margin-top: 5px;
+}
+
+@media (max-width: 750px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-list {
+    display: block;
+
+    position: absolute;
+    width: 100vw;
+    top: 90px;
+    right: 0px;
+    background-color: #0b0b0d;
+    height: calc(0px);
+    z-index: 1000;
+    transition: 0.6s;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  .nav-list li {
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid #f21373;
+  }
+
+  .nav-list a {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .nav.active .nav-list {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+    height: calc(100vh - 90px);
+    visibility: visible;
+    overflow-y: auto;
+  }
 }
