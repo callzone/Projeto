@@ -56,16 +56,55 @@ ul li:hover {
 }
 
 a {
+  padding: 8px;
   text-decoration: none;
   color: white;
 }
 
 main {
-  margin-top: 100px;
+  margin-top: 150px;
+  text-align: center;
+  
 }
 
 main h1 {
-  text-align: center;
+  
+  font-size: 3rem;
+}
+
+#mainCard{
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 600px;
+}
+
+#mainCard h2{
+  font-size: 2rem;
+}
+
+#mainCard p{
+  font-size: 1.5rem;
+  margin-top: 1.2rem;
+  font-weight: bolder;
+  color: #13CFF2;
+  background-color: #0b0b0d07;
+}
+
+#btn-link{
+  margin-top: 4rem;
+  
+}
+
+#btn-link a{
+  font-size: 1.2rem;
+  background-color: #736E43;
+  padding: 1.2rem;
+  border-radius: 20px;
+  transition: 0.6s;
+}
+
+#btn-link a:hover{
+  background-color: #F21373;
 }
 
 /* Menu hamburguer */
@@ -89,6 +128,14 @@ main h1 {
 }
 
 @media (max-width: 750px) {
+
+  #mainCard{
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 400px;
+  }
+  
+
   .hamburger {
     display: block;
   }
