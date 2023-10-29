@@ -7,10 +7,8 @@
 
 
 body {
-  height: 100vh;
-  background-image: url("../../image/galaxia.jpeg");
-  background-size: cover;
-  background-position: center center;
+  
+  background-color: #418E9D;
 }
 
 header {
@@ -25,6 +23,10 @@ header {
     -webkit-box-shadow: 0px 7px 15px -1px rgba(245, 226, 51, 0.34);
     -moz-box-shadow: 0px 7px 15px -1px rgba(245, 226, 51, 0.34);
     box-shadow: 0px 7px 15px -1px rgba(245, 226, 51, 0.34);
+  }
+
+  img{
+    width: 64px;
   }
   
   nav {
@@ -76,15 +78,10 @@ header {
     margin-top: 5px;
   }
 
-  main{
-   
-    
-  }
-
   main #title{
     
     color: #fff;
-    height: 200px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;    
@@ -92,11 +89,11 @@ header {
 
   #title h1{
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   main #cardDiv{
-    padding: 20px;
+    padding: 30px;
     height: 50vh;
     display: flex;
     justify-content: space-around;
@@ -144,12 +141,10 @@ header {
     
     main #cardDiv{
       
-      height: 70vh;
+      height: 100%;
       display: flex;
       flex-direction: column;
-      gap: 2rem;
-      
-     
+      gap: 2rem; 
     }
   }
   
@@ -200,7 +195,7 @@ header {
       flex-direction: column;
       align-items: center;
       gap: 6rem;
-      height: calc(100vh - 90px);
+      height: calc(121vh - 90px);
       visibility: visible;
       overflow-y: auto;
     }
