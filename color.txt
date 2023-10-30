@@ -2,12 +2,15 @@
 
 
 amarelo = #F5E233
-rosa = #F21373
-azul claro = #13CFF2
-azul escuro = #418E9D
+
+
+
 verde musgo = #46753E
-cinza = #736E43
 
 
+azul claro = #13CFF2
+cor de mar = #5FDEC5
+rosa = #F21373
+roxo = #6A5FDE
 preto = #0B0B0D
 branco = #FFFFFF

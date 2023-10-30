@@ -8,7 +8,7 @@
 
 body {
   
-  background-color: #418E9D;
+  background-color: #6A5FDE;
 }
 
 header {
@@ -90,6 +90,11 @@ header {
   #title h1{
     text-align: center;
     font-size: 4rem;
+    padding: 10px;
+  }
+
+  #title h1 span{
+    color: #5FDEC5;
   }
 
   main #cardDiv{
@@ -98,7 +103,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
   }
 
   .card{
@@ -121,7 +125,6 @@ header {
     padding: 20px;
     justify-content: center;
     font-size: 2rem;
-  
   }
 
   .card h4{
@@ -140,15 +143,13 @@ header {
   @media (max-width: 900px){
     
     main #cardDiv{
-      
       height: 100%;
       display: flex;
       flex-direction: column;
-      gap: 2rem; 
+      gap: 8rem; 
     }
   }
   
-
 @media (max-width: 750px) {
 
     #mainCard{
@@ -157,7 +158,6 @@ header {
       width: 400px;
     }
     
-  
     .hamburger {
       display: block;
     }
@@ -195,7 +195,7 @@ header {
       flex-direction: column;
       align-items: center;
       gap: 6rem;
-      height: calc(121vh - 90px);
+      height: calc(100vh - 90px);
       visibility: visible;
       overflow-y: auto;
     }
