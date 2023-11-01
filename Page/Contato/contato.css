@@ -5,7 +5,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-
 body {
   
   background-color: #6A5FDE;
@@ -108,7 +107,7 @@ header {
   .card{
     border: 2px solid ;
     background-color: #0b0b0d;
-    padding: 30px;
+    padding: 10px;
     height: 300px;
     width: 250px;
     border-radius: 15%;
@@ -138,6 +137,19 @@ header {
     color: #fff;
     margin-top: 20px;
     text-align: center;
+  }
+
+  .divLink{
+    font-size: 1.4rem;
+    
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .divLink a{
+    color: #5FDEC5;
+    padding: 20px 0px 20px 0px;
   }
 
   @media (max-width: 900px){
