@@ -107,6 +107,7 @@ header {
   .card{
     border: 2px solid ;
     background-color: #0b0b0d;
+    border: 1px solid #0b0b0d;
     padding: 10px;
     height: 300px;
     width: 250px;
