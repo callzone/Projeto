@@ -14,6 +14,7 @@
     <!-- Link css -->
 
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="indexSlide.css">
 
     <title>Home</title>
   </head>
@@ -33,9 +34,61 @@
     </header>
 
     <main>
-      <h1>Já ouviu falar em Turismos espacial ?</h1>
+      <div class="title">
+         <h1>Já ouviu falar em Turismos espacial ?</h1>
+         <h2>Não deixe essa experiência singular passar!</h2>
+      </div>
+     
+
+      <div class="slider">
+
+        <div class="slides">
+            <!-- radio butt -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+
+            <!-- slide img -->
+
+            <div class="slide first">
+              <img src="image/tuirsmo espacial/turismo1.jpg" alt="imagem1">
+            </div>
+            <div class="slide">
+              <img src="image/tuirsmo espacial/turismo2.png" alt="imagem2">
+            </div>
+            <div class="slide">
+              <img src="image/tuirsmo espacial/turismo3.jpg" alt="imagem3">
+            </div>
+            <div class="slide">
+              <img src="image/tuirsmo espacial/turismo4.jpg" alt="imagem4">
+            </div>
+
+            <!-- navegação auto -->
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+        </div>
+
+        <div class="manual-navigation">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+
+      </div>
+
+
+      
       <div id="mainCard">
-        <h2>Não deixe essa experiência singular passar!</h2>
+        
         <p>
           Venha fazer parte do seleto grupo de seres humanos que tiveram a oportunidade de ir ao
           espaço. <br/>Torne-se astoronauta com apenas um clique !
@@ -44,9 +97,10 @@
         <div id="btn-link">
            <a  href="Page/Passagem/passagem.html">adquira já</a>
         </div>
-      </div>
+      </div> 
     </main>
 
     <script src="index.js"></script>
+    <script src="indexSlide.js"></script>
   </body>
 </html>
