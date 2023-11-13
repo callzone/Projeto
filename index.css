@@ -7,6 +7,7 @@
 
 body {
   height: 100vh;
+  
   background-image: url(image/pngtree-seamless-star-field-seamless-space-field-photo-image_4269712.jpg);
   color: #ffffff;
 }
@@ -23,6 +24,10 @@ header {
   -webkit-box-shadow: 0px 7px 15px -1px rgba(245, 226, 51, 0.34);
   -moz-box-shadow: 0px 7px 15px -1px rgba(245, 226, 51, 0.34);
   box-shadow: 0px 7px 15px -1px rgba(245, 226, 51, 0.34);
+}
+
+header img{
+  width: 100px;
 }
 
 nav {
@@ -77,8 +82,8 @@ main h1 {
   margin: 0 auto;
   margin-top: 4rem;
   
-  width: 600px;
-  height: 400px;
+  width: 800px;
+  
 }
 
 #mainCard h2{
@@ -91,6 +96,8 @@ main h1 {
   font-weight: bolder;
   color: #13CFF2;
   background-color: #0b0b0d07;
+  margin: 0 auto;
+  width: 400px;
 }
 
 #btn-link{
@@ -129,6 +136,75 @@ main h1 {
   margin-top: 5px;
 }
 
+
+#valoresCard{
+  
+  margin-top: 8rem;
+ 
+  display: flex;
+  justify-content: space-around;
+  
+  height: 520px;
+}
+
+#valoresCard div{
+  width: 600px;
+  height: 100%;
+  
+}
+
+#valoresCard h2{
+  font-size: 2rem;
+}
+
+#valoresCard p{
+  font-size: 1.5rem;
+  margin-top: 1.2rem;
+  font-weight: bolder;
+  color: #13CFF2;
+  background-color: #0b0b0d07;
+}
+
+
+
+@media (max-width: 1200px){
+
+  #valoresCard div{
+    width: 400px;
+    height: 100%;
+    
+  }
+
+
+}
+  
+
+
+@media (max-width: 850px){
+  
+  #valoresCard{
+    margin-top: 5rem;
+
+    height: 800px;
+    padding: 10px;
+   
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+  }
+
+  #valoresCard div{
+    width: 400px;
+    height: 100%;
+    
+
+  }
+}
+
+
 @media (max-width: 750px) {
 
   #mainCard{
@@ -136,6 +212,7 @@ main h1 {
     margin-top: 2rem;
     width: 400px;
   }
+
   
   .hamburger {
     display: block;
