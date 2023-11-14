@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -18,6 +19,11 @@ header {
     box-shadow: 0px 7px 15px -1px rgba(245, 226, 51, 0.34);
   }
   
+
+  body {
+    background-image: url("/image/pngtree-seamless-star-field-seamless-space-field-photo-image_4269712.jpg");
+    color: #ffffff;
+  }
 
   header img{
     width: 100px;
@@ -71,6 +77,49 @@ header {
     height: 3px;
     background: #fff;
     margin-top: 5px;
+  }
+
+
+  .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+  }
+
+  .title h1{
+    font-size: 3rem;
+  }
+
+
+  #conteudoCard{
+
+    margin: 0 auto;
+
+    text-align: center;
+    width: 800px;
+  }
+
+
+  #conteudoCard .card{
+    margin-bottom: 3rem;
+  }
+
+  #conteudoCard h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+
+  #conteudoCard p{
+    font-size: 1.5rem;
+    
+    font-weight: bolder;
+    color: #13CFF2;
+    background-color: #0b0b0d07;
+    margin: 0 auto;
+    width: 600px;
   }
 
 @media (max-width: 750px) {
