@@ -94,16 +94,21 @@ header {
 
 
   #conteudoCard{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
 
     text-align: center;
-    width: 800px;
+    
   }
 
 
   #conteudoCard .card{
     margin-bottom: 3rem;
+    text-align: center;
+    
   }
 
   #conteudoCard h2{
@@ -172,5 +177,17 @@ header {
       visibility: visible;
       overflow-y: auto;
     }
+
+
+    #conteudoCard p{
+      font-size: 1.5rem;
+      
+      font-weight: bolder;
+      color: #13CFF2;
+      background-color: #0b0b0d07;
+      margin: 0 auto;
+      width: 400px;
+    }
+
   }
   
