@@ -7,7 +7,7 @@
 
 body {
   
-  background-color: #6A5FDE;
+  background-image: url("/image/pngtree-seamless-star-field-seamless-space-field-photo-image_4269712.jpg");
 }
 
 header {
@@ -84,12 +84,19 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;    
+
+    flex-direction: column;
   }
 
   #title h1{
     text-align: center;
     font-size: 4rem;
     padding: 10px;
+  }
+
+  #title h3{
+    text-align: center;
+    width: 600px;
   }
 
   #title h1 span{
@@ -160,6 +167,11 @@ header {
       display: flex;
       flex-direction: column;
       gap: 8rem; 
+    }
+
+    #title h3{
+      text-align: center;
+      width: 400px;
     }
   }
   
