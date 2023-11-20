@@ -162,6 +162,9 @@ main h1 {
   background-color: #0b0b0d07;
 }
 
+#abaixoVisao{
+  margin-top: 4rem;
+}
 
 
 @media (max-width: 1200px){
