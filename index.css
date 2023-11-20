@@ -25,6 +25,10 @@ header {
   box-shadow: 0px 7px 15px -1px rgba(245, 226, 51, 0.34);
 }
 
+header img{
+  width: 100px;
+}
+
 nav {
   color: #ffffff;
   font-size: 1.5rem;
