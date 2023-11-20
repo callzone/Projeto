@@ -133,13 +133,86 @@ main h1 {
   margin-top: 5px;
 }
 
+
+#valoresCard{
+  
+  margin-top: 0rem;
+ 
+  display: flex;
+  justify-content: space-around;
+  
+  height: 520px;
+}
+
+#valoresCard div{
+  width: 600px;
+  height: 100%;
+  
+}
+
+#valoresCard h2{
+  font-size: 2rem;
+}
+
+#valoresCard p{
+  font-size: 1.5rem;
+  margin-top: 1.2rem;
+  font-weight: bolder;
+  color: #13CFF2;
+  background-color: #0b0b0d07;
+}
+
+
+
+@media (max-width: 1200px){
+
+  #valoresCard div{
+    width: 300px;
+    height: 100%;
+    
+  }
+
+
+}
+  
+
+@media (max-width: 850px){
+  
+  #valoresCard{
+    margin-top: 0rem;
+
+    height: 1000px;
+    padding: 10px;
+   
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+  }
+
+  #valoresCard div{
+    width: 400px;
+    height: 100%;
+  }
+
+
+  #mainCard{
+    width: 600px;
+  }
+
+}
+
+
 @media (max-width: 750px) {
 
   #mainCard{
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: 0rem;
     width: 400px;
   }
+
   
   .hamburger {
     display: block;
